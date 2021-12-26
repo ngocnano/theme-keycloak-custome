@@ -42,7 +42,8 @@
                     </div>
                     <div txt-input password>
                         <input class="login-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
-                        <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
+                        <!--label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label -->
+                        <i class="fa fa-eye-slash" id="togglePassword" onclick="togglePassword()"></i>
                     </div>
                     
                     <div class="form-check">

@@ -38,10 +38,10 @@
             <div class="form-input">
                <form id="kc-form-login" class="form" onsubmit="return true;" action="${url.loginAction}" method="post">
                     <div class="txt-input">
-                        <input id="username" class="login-field" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
+                        <input class="login-field" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
                     </div>
                     <div txt-input password>
-                        <input id="password" class="login-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
+                        <input class="login-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
                         <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label>
                     </div>
                     
@@ -70,5 +70,41 @@
             <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
         </div>
     </div>
+
+    <div class="login-right" >
+    <div class="info-right">
+        <p id="info-txt">Kênh thông tin dành cho MBers trên HCM</p>
+    </div>
+    <div class="select-info">
+      <div class="radio-button1">
+        <label for="myRadioId" class="radio">
+          <input type="radio" name="myRadioField" id="myRadioId" class="radio__input" checked>
+          <div class="radio__radio"></div>
+        </label>
+      </div>
+
+      <div class="radio-button2">
+        <label for="myRadioId" class="radio">
+          <input type="radio" name="myRadioField" id="myRadioId" class="radio__input" checked>
+          <div class="radio__radio"></div>
+        </label>
+      </div>
+
+      <div class="radio-button3">
+        <label for="myRadioId" class="radio">
+          <input type="radio" name="myRadioField" id="myRadioId" class="radio__input">
+          <div class="radio__radio"></div>
+        </label>
+      </div>
+
+
+      <div class="radio-button4">
+        <label for="myRadioId" class="radio">
+          <input type="radio" name="myRadioField" id="myRadioId" class="radio__input">
+          <div class="radio__radio"></div>
+        </label>
+      </div>
+    </div>
+</div>
     </#if>
 </@layout.registrationLayout>

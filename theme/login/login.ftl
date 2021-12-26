@@ -71,7 +71,7 @@
         </div>
     </div>
 
-    <div class="login-right" >
+<div class="login-right" >
     <div class="info-right">
         <p id="info-txt">Kênh thông tin dành cho MBers trên HCM</p>
     </div>
@@ -106,5 +106,6 @@
       </div>
     </div>
 </div>
+    
     </#if>
 </@layout.registrationLayout>

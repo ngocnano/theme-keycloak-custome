@@ -13,6 +13,22 @@
             <link href="${url.resourcesPath}/${style}" rel="stylesheet" />
         </#list>
     </#if>
+    <style>
+        @font-face{
+                src: url(${url.resourcesPath}/font/AvertaStdCY-Regular_3.otf);
+            font-family: mb;
+        }
+
+        @font-face {
+            font-family: mb-bold;
+            src: url(${url.resourcesPath}/font/Bold.otf);
+        }
+
+        @font-face {
+            font-family: mb-semibold;
+            src: url(${url.resourcesPath}/font/Semibold.otf);
+        }
+    </style>
 </head>
 
 	<body>

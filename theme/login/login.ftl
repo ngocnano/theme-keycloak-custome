@@ -11,10 +11,8 @@
                 var v = document.getElementById("vi");
                 if (x.type === "password") {
                     x.type = "text";
-                    v.src = "${url.resourcesPath}/img/eye.png";
                 } else {
                     x.type = "password";
-                    v.src = "${url.resourcesPath}/img/eye-off.png";
                 }
             }
         </script>
@@ -41,7 +39,7 @@
                         <input class="text-field" placeholder="${msg("username")}" type="text" name="username" tabindex="1">
                     </div>
                     <div class="txt-input password">
-                        <input class="text-field" placeholder="${msg("password")}" type="password" name="password" tabindex="2">
+                        <input class="text-field" placeholder="${msg("password")}" type="password" id="password" name="password" tabindex="2">
                         <!--label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="${url.resourcesPath}/img/eye-off.png"></label -->
                         <i class="fa fa-eye-slash" id="togglePassword" onclick="togglePassword()"></i>
                     </div>

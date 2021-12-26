@@ -110,7 +110,7 @@ body {
     */
     width: 600px;
     height: 100% !important;
-    background: url(~src/app/demo/auth/icon/back.png);
+    background: url(../icon/back.png);
     border-radius: 12px;
     background-size: cover;
     display: flex;

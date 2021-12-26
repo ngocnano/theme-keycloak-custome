@@ -24,7 +24,7 @@
         <div class="title">
             <!--img class="logo" src="${url.resourcesPath}/img/alfresco-logo.svg" alt="Alfresco" -->
 
-            <img class="brand" src="${url.resourcesPath}/font/imgLogo">
+            <img class="brand" src="${url.resourcesPath}/icon/imgLogo">
     
             <div class="sys-name">
                 <p>Hệ thống quản lý nhân sự</p>
@@ -66,12 +66,9 @@
                 </#list>
             </div>
         </#if>
-        <div>
-            <p class="copyright">&copy; ${msg("copyright", "${.now?string('yyyy')}")}</p>
-        </div>
     </div>
 
-<div class="login-right" >
+    <div class="login-right" >
     <div class="info-right">
         <p id="info-txt">Kênh thông tin dành cho MBers trên HCM</p>
     </div>
@@ -106,6 +103,7 @@
       </div>
     </div>
 </div>
+
     
     </#if>
 </@layout.registrationLayout>

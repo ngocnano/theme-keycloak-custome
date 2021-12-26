@@ -69,7 +69,7 @@
     </div>
     </div>
 
-    <div class="login-right" >
+    <div class="login-right" style="background: url(${url.resourcesPath}/icon/back.png);" >
     <div class="info-right">
         <p id="info-txt">Kênh thông tin dành cho MBers trên HCM</p>
     </div>

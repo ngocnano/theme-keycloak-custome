@@ -137,6 +137,7 @@ body {
     top: 52px;
     position: absolute;
     */
+    display: flex;
     margin-top: 12px;
     width: 249px;
     height: 26px;

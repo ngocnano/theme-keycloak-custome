@@ -24,7 +24,7 @@
         <div class="title">
             <!--img class="logo" src="${url.resourcesPath}/img/alfresco-logo.svg" alt="Alfresco" -->
 
-            <img class="brand" src="${url.resourcesPath}/icon/mb-logo.png">
+            <img class="brand" src="${url.resourcesPath}/img/logo_mb.png">
     
             <div class="sys-name">
                 <p>Hệ thống quản lý nhân sự</p>

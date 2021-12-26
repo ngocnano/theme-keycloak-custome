@@ -43,18 +43,18 @@
 
 
 @font-face{
-    src: url(~src/app/demo/auth/font/AvertaStdCY-Regular_3.otf);
+    src: url(../font/AvertaStdCY-Regular_3.otf);
     font-family: mb;
 }
 
 @font-face {
     font-family: mb-bold;
-    src: url(~src/app/demo/auth/font/Bold.otf);
+    src: url(../font/Bold.otf);
 }
 
 @font-face {
     font-family: mb-semibold;
-    src: url(~src/app/demo/auth/font/Semibold.otf);
+    src: url(../font/Semibold.otf);
 }
 
 

@@ -1,0 +1,22 @@
+# Eclipse
+.classpath
+.settings
+.project
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Package Files #
+*.jar
+*.zip
+*.tar.gz
+
+# Visual Studio Code
+.vscode/
+
+# Mac
+.DS_Store
+
+

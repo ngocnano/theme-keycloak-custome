@@ -21,7 +21,7 @@
     <#elseif section = "form">
     
     <div class="login-left">
-        <div class="title">
+        <div class="title-app">
             <!--img class="logo" src="${url.resourcesPath}/img/alfresco-logo.svg" alt="Alfresco" -->
 
             <img class="brand" src="${url.resourcesPath}/img/logo_mb.png">
